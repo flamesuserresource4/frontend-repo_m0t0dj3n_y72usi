@@ -2,6 +2,10 @@ import Hero from "./components/Hero";
 import Features from "./components/Features";
 import HowItWorks from "./components/HowItWorks";
 import CTA from "./components/CTA";
+import ShowcaseCarousel from "./components/ShowcaseCarousel";
+import Testimonials from "./components/Testimonials";
+import Comparison from "./components/Comparison";
+import FAQ from "./components/FAQ";
 
 export default function App() {
   return (
@@ -39,7 +43,11 @@ export default function App() {
       <main>
         <Hero />
         <Features />
+        <Comparison />
+        <ShowcaseCarousel />
+        <Testimonials />
         <HowItWorks />
+        <FAQ />
         <CTA />
       </main>
 
