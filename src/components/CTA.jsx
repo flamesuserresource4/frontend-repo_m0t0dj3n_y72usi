@@ -20,7 +20,7 @@ export default function CTA() {
                 </p>
               </div>
               <a
-                href="#get-started"
+                href="https://app.lookartz.com"
                 className="inline-flex items-center justify-center rounded-lg bg-white px-5 py-3 font-medium text-slate-900 shadow-sm transition hover:bg-white/90"
               >
                 Get started — it’s free
