@@ -4,7 +4,7 @@ import { Quote } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "We launched our online store on Lookartz in a weekend. It feels like Shopify simplicity, but focused on local shops.",
+      "We launched our online store on Lookartz in a weekend. Simple, fast, and designed for how local shops actually work.",
     author: "Maya, Bloom & Leaf",
   },
   {
@@ -35,9 +35,7 @@ export default function Testimonials() {
         <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-600/10 text-indigo-600">
           <Quote className="h-6 w-6" />
         </div>
-        <p className="mt-6 text-xl leading-8 text-slate-800 md:text-2xl">
-          “{current.quote}”
-        </p>
+        <p className="mt-6 text-xl leading-8 text-slate-800 md:text-2xl">“{current.quote}”</p>
         <p className="mt-3 text-sm font-medium text-slate-500">{current.author}</p>
 
         <div className="mt-6 flex justify-center gap-2">

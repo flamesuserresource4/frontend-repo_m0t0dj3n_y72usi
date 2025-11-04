@@ -6,6 +6,8 @@ import ShowcaseCarousel from "./components/ShowcaseCarousel";
 import Testimonials from "./components/Testimonials";
 import Comparison from "./components/Comparison";
 import FAQ from "./components/FAQ";
+import LogoCarousel from "./components/LogoCarousel";
+import Metrics from "./components/Metrics";
 
 export default function App() {
   return (
@@ -42,6 +44,8 @@ export default function App() {
 
       <main>
         <Hero />
+        <LogoCarousel />
+        <Metrics />
         <Features />
         <Comparison />
         <ShowcaseCarousel />

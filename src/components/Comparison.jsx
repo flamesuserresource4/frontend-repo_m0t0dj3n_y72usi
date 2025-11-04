@@ -6,10 +6,10 @@ export default function Comparison() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-            Shopify-level polish, tailored for local shops
+            Pro‑grade polish, tailored for local shops
           </h2>
           <p className="mt-3 text-slate-600">
-            Lookartz gives you the familiar ease of setting up an online store, with workflows designed for walk-ins,
+            Lookartz gives you the ease of setting up an online store, with workflows designed for walk‑ins,
             pickups, local delivery, and neighborhood loyalty.
           </p>
         </div>
